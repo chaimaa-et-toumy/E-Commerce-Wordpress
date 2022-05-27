@@ -1,0 +1,26 @@
+2022-05-25T07:41:07+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\tech\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:683
+Stack trace:
+#0 C:\xampp\htdocs\tech\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(597): ActionScheduler_DBStore->claim_actions(0, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\tech\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\tech\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\tech\wp-includes\class-wp-hook.php(307): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\tech\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\tech\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\tech\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\tech\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 683
+
+2022-05-25T10:17:48+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\tech\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:683
+Stack trace:
+#0 C:\xampp\htdocs\tech\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(597): ActionScheduler_DBStore->claim_actions(0, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\tech\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\tech\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\tech\wp-includes\class-wp-hook.php(307): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\tech\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\tech\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\tech\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\tech\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 683
+
+2022-05-25T10:31:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\tech\wp-includes\Requests\Transport\cURL.php on line 165
+
